@@ -1,0 +1,44 @@
+// Define variable defaults
+// $body-bg: #000;
+// $body-color: #111;
+
+// Then import Bootstrap and BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.inline {
+    display: inline-block;
+}
+
+hr {
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+.fav-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 5px;
+
+  .btn {
+    width: 40px;
+    height: 40px;
+    padding: 0px
+  }
+}
+
+.b-icon {
+  font-size: 100%;
+}
+
+.add-to-cart {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0px
+}

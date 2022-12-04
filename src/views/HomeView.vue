@@ -1,9 +1,13 @@
 <template>
-  <div>Page...</div>
+  <ProductList />
 </template>
 
 <script>
+import ProductList from "@/views/product/productList.vue";
+
 export default {
-  name: "HomeView",
+  components: {
+    ProductList,
+  },
 };
 </script>
