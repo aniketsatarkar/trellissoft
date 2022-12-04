@@ -13,7 +13,7 @@
       </tr>
     </table>
     <b-button variant="primary" class="mt-3 w-100">
-      Procceed to checkout
+      Proceed to checkout
     </b-button>
   </div>
 </template>
